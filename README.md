@@ -3,6 +3,10 @@
 
 ## 准备
 
+首先你需要python3的开发环境，如果你没有，请按照这个链接进行配置：http://www.runoob.com/python/python-install.html
+
+然后安装pip（python的包管理器）：https://www.jianshu.com/p/eb46d00fc7ba
+
 你需要安装以下的库：
 
     pip3 install jieba
