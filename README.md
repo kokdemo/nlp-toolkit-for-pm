@@ -19,3 +19,13 @@
     python3 detect-name.py
 
 就会将origin中的文本切词，把里面人名挑出来。最后输出到 detect-name.csv 中。
+
+## 分词与词性过滤
+
+将导入的数据按照 slice-word.xlsx 的格式整理好（utf-8格式），切换到test-data文件夹内，输入：
+
+    python3 slice-word.py
+
+就会将 slice-word.xlsx 中的文本切词，把里面人名挑出来。最后打印出来。
+
+如果要加上词性过滤，需要修改代码，在word_filter变量添加要过滤掉的词性。
